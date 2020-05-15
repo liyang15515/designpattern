@@ -2,31 +2,128 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a531b8a-c76b-4b85-88e7-8aa0fea08fce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/totok/go1/factory/ICourse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/totok/go1/factory/ICourseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/totok/go1/factory/JavaCourse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/totok/go1/factory/PythonCourse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/totok/go1/factory/SimpleFactoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/totok/go1/factory/SimpleFactoryTest2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/totok/go1/factory/SimpleFactoryTest3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/totok/go1/factory/abstractfactory/CourseFactoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/totok/go1/factory/abstractfactory/INote.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/totok/go1/factory/abstractfactory/IVideo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/totok/go1/factory/abstractfactory/JavaCourseFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/totok/go1/factory/abstractfactory/JavaNote.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/totok/go1/factory/abstractfactory/JavaVideo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/totok/go1/factory/abstractfactory/PythonCourseFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/totok/go1/factory/abstractfactory/PythonNote.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/totok/go1/factory/abstractfactory/PythonVideo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/totok/go1/factory/factorymethod/ICourseFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/totok/go1/factory/factorymethod/ICourseFactoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/totok/go1/factory/factorymethod/JavaCourseFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/totok/go1/factory/factorymethod/PythonCourseFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/totok/go1/factory/simplefactory/CourseFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/totok/go1/factory/simplefactory/CourseFactory2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/totok/go1/factory/simplefactory/CourseFactory3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/totok/go1/factory/ICourse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/totok/go1/factory/ICourseTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/totok/go1/factory/JavaCourse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/totok/go1/factory/PythonCourse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/totok/go1/factory/SimpleFactoryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/totok/go1/factory/SimpleFactoryTest2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/totok/go1/factory/SimpleFactoryTest3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/totok/go1/factory/abstractfactory/CourseFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/totok/go1/factory/abstractfactory/CourseFactoryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/totok/go1/factory/abstractfactory/INote.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/totok/go1/factory/abstractfactory/IVideo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/totok/go1/factory/abstractfactory/JavaCourseFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/totok/go1/factory/abstractfactory/JavaNote.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/totok/go1/factory/abstractfactory/JavaVideo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/totok/go1/factory/abstractfactory/PythonCourseFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/totok/go1/factory/abstractfactory/PythonNote.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/totok/go1/factory/abstractfactory/PythonVideo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/totok/go1/factory/factorymethod/ICourseFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/totok/go1/factory/factorymethod/ICourseFactoryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/totok/go1/factory/factorymethod/JavaCourseFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/totok/go1/factory/factorymethod/PythonCourseFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/totok/go1/factory/simplefactory/CourseFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/totok/go1/factory/simplefactory/CourseFactory2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/totok/go1/factory/simplefactory/CourseFactory3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yiche/actionpattern/ResponsibilityTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yiche/actionpattern/fifthObserver/DevelopmentProgressData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yiche/actionpattern/fifthObserver/DisplaySchedule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yiche/actionpattern/fifthObserver/Observer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yiche/actionpattern/fifthObserver/ProductManagerObserver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yiche/actionpattern/fifthObserver/ProjectManagerObserver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yiche/actionpattern/fifthObserver/RunTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yiche/actionpattern/fifthObserver/Subject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yiche/actionpattern/fifthObserver/javautil_observer/BossMngObserver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yiche/actionpattern/fifthObserver/javautil_observer/DisplayIllustrate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yiche/actionpattern/fifthObserver/javautil_observer/InventoryData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yiche/actionpattern/fifthObserver/javautil_observer/NormalInfoMngObserver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yiche/actionpattern/fifthObserver/javautil_observer/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yiche/actionpattern/fifthObserver/javautil_observer/ValuableInfoMngObserver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yiche/actionpattern/firstResponsibility/AbstractLogger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yiche/actionpattern/firstResponsibility/ChainPattern.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yiche/actionpattern/firstResponsibility/ClientTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yiche/actionpattern/firstResponsibility/ConsoleLogger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yiche/actionpattern/firstResponsibility/ErrorLogger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yiche/actionpattern/firstResponsibility/FileLogger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yiche/actionpattern/firstResponsibility/simpleDemo/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yiche/actionpattern/firstResponsibility/simpleDemo/ConcreteHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yiche/actionpattern/firstResponsibility/simpleDemo/Handler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yiche/constructpattern/AdapterTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yiche/constructpattern/firstAdapter/adapterclass/APower.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yiche/constructpattern/firstAdapter/adapterclass/AdapteeAmericanPower.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yiche/constructpattern/firstAdapter/adapterclass/AdapterPower.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yiche/constructpattern/firstAdapter/adapterclass/ClassTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yiche/constructpattern/firstAdapter/adapterclass/TargetChinaPower.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yiche/constructpattern/firstAdapter/adapterobject/APower.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yiche/constructpattern/firstAdapter/adapterobject/AdapteeAmericanPower.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yiche/constructpattern/firstAdapter/adapterobject/AdapterPower.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yiche/constructpattern/firstAdapter/adapterobject/ObjectTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yiche/constructpattern/firstAdapter/adapterobject/TargetChinaPower.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yiche/constructpattern/secondProxy/dynamicProxy/DynamicProxyHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yiche/constructpattern/secondProxy/dynamicProxy/DynamicProxyTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yiche/constructpattern/secondProxy/dynamicProxy2/CglibProxy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yiche/constructpattern/secondProxy/staticProxy/BuyHouse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yiche/constructpattern/secondProxy/staticProxy/BuyHouseImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yiche/constructpattern/secondProxy/staticProxy/BuyHouseProxy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yiche/constructpattern/secondProxy/staticProxy/ProxyTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yiche/constructpattern/sixFacade/CPU.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yiche/constructpattern/sixFacade/Computer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yiche/constructpattern/sixFacade/Disk.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yiche/constructpattern/sixFacade/Memory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yiche/constructpattern/sixFacade/UserTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yiche/constructpattern/sixFacade/facade/Facade.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yiche/constructpattern/sixFacade/facade/FacadePatternTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yiche/constructpattern/sixFacade/facade/SubSystem01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yiche/constructpattern/sixFacade/facade/SubSystem02.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yiche/constructpattern/sixFacade/facade/SubSystem03.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yiche/constructpattern/thirdDecorator/DecoratorTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yiche/constructpattern/thirdDecorator/demoPattern/Component2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yiche/constructpattern/thirdDecorator/demoPattern/ConcreteComponent2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yiche/constructpattern/thirdDecorator/demoPattern/ConcreteDecoratorA.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yiche/constructpattern/thirdDecorator/demoPattern/ConcreteDecoratorB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yiche/constructpattern/thirdDecorator/demoPattern/Decorator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yiche/constructpattern/thirdDecorator/demoPattern/DecoratorTest2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yiche/constructpattern/thirdDecorator/zhuangshiPattern/Component.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yiche/constructpattern/thirdDecorator/zhuangshiPattern/ConcretComponent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yiche/constructpattern/thirdDecorator/zhuangshiPattern/ConcreteDecorator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yiche/constructpattern/thirdDecorator/zhuangshiPattern/Decorator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yiche/constructpattern/thirdDecorator/zhuangshiPattern/DecoratorTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yiche/createpattern/firstsingleton/SingletonHungaryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yiche/createpattern/firstsingleton/SingletonHungry.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yiche/createpattern/firstsingleton/SingletonHungry1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yiche/createpattern/firstsingleton/SingletonLazy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yiche/createpattern/firstsingleton/SingletonLazy2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yiche/createpattern/firstsingleton/SingletonLazy21.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yiche/createpattern/firstsingleton/SingletonLazy3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yiche/createpattern/firstsingleton/SingletonLazyTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yiche/createpattern/secondfactory/AbstractFactoryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yiche/createpattern/secondfactory/MethodFactoryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yiche/createpattern/secondfactory/SimpleFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yiche/createpattern/secondfactory/SimpleFactoryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yiche/createpattern/secondfactory/abstractfactory/AbstractBus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yiche/createpattern/secondfactory/abstractfactory/AbstractCar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yiche/createpattern/secondfactory/abstractfactory/AbstractFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yiche/createpattern/secondfactory/abstractfactory/LargeBus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yiche/createpattern/secondfactory/abstractfactory/LargeCar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yiche/createpattern/secondfactory/abstractfactory/LargeFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yiche/createpattern/secondfactory/abstractfactory/MiddleBus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yiche/createpattern/secondfactory/abstractfactory/SmallFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yiche/createpattern/secondfactory/abstractfactory/SportCar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yiche/createpattern/secondfactory/factorymethod/CarFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yiche/createpattern/secondfactory/factorymethod/LargeTruck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yiche/createpattern/secondfactory/factorymethod/SedanCar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yiche/createpattern/secondfactory/factorymethod/SmallTruck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yiche/createpattern/secondfactory/factorymethod/SportCar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yiche/createpattern/secondfactory/factorymethod/TruckFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yiche/createpattern/secondfactory/factorymethod/VehicleFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yiche/createpattern/secondfactory/simplefactory/Bike.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yiche/createpattern/secondfactory/simplefactory/Car.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yiche/createpattern/secondfactory/simplefactory/Truck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yiche/createpattern/secondfactory/simplefactory/Vehicle.java" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -60,6 +157,9 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RecentsManager">
@@ -167,7 +267,7 @@
       <updated>1587246041839</updated>
       <workItem from="1587246043269" duration="2020000" />
       <workItem from="1589499880432" duration="100000" />
-      <workItem from="1589499998654" duration="5678000" />
+      <workItem from="1589499998654" duration="6403000" />
     </task>
     <servers />
   </component>
@@ -186,21 +286,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>
